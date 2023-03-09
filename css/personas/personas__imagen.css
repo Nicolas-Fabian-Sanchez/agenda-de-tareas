@@ -1,0 +1,19 @@
+.persona__imagen{
+      height: 300px;
+      width: 300px;
+      margin: 0 auto;
+      background-position: center;/* esto se puede poner de forma resumida asi: backgroun: url() no-repeat center / cover */
+      background-repeat: no-repeat;
+      background-size: cover;/*investigar para que sirve*/
+      border-radius: 100%;
+
+}
+.persona__imagen--roberta{
+    background-image: url(/img/personas/roberta.jpg); /*para insertar la imagen , pero no en html*/
+}
+.persona__imagen--marcela{
+    background-image: url(/img/personas/marcela.jpg);
+}
+.persona__imagen--andreia{
+    background-image: url(/img/personas/andrea.jpg);
+}

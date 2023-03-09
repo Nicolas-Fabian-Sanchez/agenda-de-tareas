@@ -1,0 +1,18 @@
+.rodapie__titulo{
+    display: flex;
+    color: #868888;
+    font-weight: 400;
+    align-items: center;
+}
+@media screen and (min-width:0) {
+    .rodapie__titulo{
+        font-size: 0.75rem;
+        padding: 0.75rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .rodapie__titulo{
+        font-size: 1.25rem;
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,25 @@
+.personas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.persona{
+    display: flex;
+    flex-direction: column;/*para que el nombre y el apellido se coloquen uno debajo del otro*/
+}
+@media screen and (min-width:0) {
+    .personas{
+     flex-direction: column;
+    }
+    .persona{
+        margin-bottom: 2rem ;
+    }
+}
+@media screen and (min-width:768px) {
+    .personas{
+       flex-direction: row;
+    }
+    .persona{
+       margin-bottom: 0;
+    }
+}
